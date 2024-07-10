@@ -69,6 +69,13 @@ flutter:
   - lib/assets/googlelogo.png
   - lib/assets/applelogo.png
   - lib/assets/foodimagethree.jpeg
+  - lib/assets/burgerimage.jpeg
+  - lib/assets/biriyani.jpeg
+  - lib/assets/birifive.jpeg
+  - lib/assets/birisix.jpeg
+  - lib/assets/biriseven.jpeg
+  - lib/assets/birinine.jpeg
+  - lib\assets\birieight.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
