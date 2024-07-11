@@ -75,7 +75,9 @@ flutter:
   - lib/assets/birisix.jpeg
   - lib/assets/biriseven.jpeg
   - lib/assets/birinine.jpeg
-  - lib\assets\birieight.jpeg
+  - lib/assets/birieight.jpeg
+  - lib/assets/tabbarone.jpeg
+  - lib/assets/tabbartwo.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
