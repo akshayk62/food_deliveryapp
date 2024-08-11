@@ -1,11 +1,15 @@
+import 'package:count_app/views/homescreen/controllers/homescreen_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 
 class ImageBar extends StatelessWidget {
   const ImageBar({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final HomeScreenController hi = HomeScreenController();
+    
+    final ScrollController scrl = ScrollController();
     return SingleChildScrollView(scrollDirection: Axis.horizontal,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -18,9 +22,14 @@ class ImageBar extends StatelessWidget {
                 width: 150,
                 decoration:
                     BoxDecoration(borderRadius: BorderRadius.circular(15),),
-                child: Image.asset(
-                  'lib/assets/birisix.jpeg',
-                  fit: BoxFit.fill,
+                child: InkWell(
+                onTap: () {
+                  hi.showdetailedoptionone(context);
+                },
+                  child: Image.asset(
+                    'lib/assets/birisix.jpeg',
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
               SizedBox(

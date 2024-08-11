@@ -78,6 +78,15 @@ flutter:
   - lib/assets/birieight.jpeg
   - lib/assets/tabbarone.jpeg
   - lib/assets/tabbartwo.jpeg
+  - lib/assets/galleryicon.png
+  - lib/assets/galleryicontwo.png
+  - lib/assets/profileimage.jpg
+  - lib/assets/shimla.jpg
+  - lib/assets/fire.jpg
+  - lib/assets/profileone.avif
+  - lib/assets/profiletwo.jpg
+  - lib/assets/profilethree.jpg
+  - lib/assets/eight.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
